@@ -57,7 +57,9 @@ db = QdrantVectorStore.from_documents(documents, embedding, collection_name="RDK
 
 > LLM
 
-`llm = AzureChatOpenAI(azure_deployment="name given during deploying the LLM model")`
+```
+llm = AzureChatOpenAI(azure_deployment="name given during deploying the LLM model")
+```
 
 
 ## How To Run
